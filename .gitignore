@@ -32,3 +32,5 @@ node_modules
 # typescript
 typings
 
+# build application dir
+app
