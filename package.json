@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/nukosuke/eureka/issues"
   },
-  "homepage": "https://github.com/nukosuke/eureka#readme"
+  "homepage": "https://github.com/nukosuke/eureka#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
