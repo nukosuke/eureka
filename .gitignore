@@ -34,3 +34,4 @@ typings
 
 # build application dir
 app
+db/*.sqlite3
