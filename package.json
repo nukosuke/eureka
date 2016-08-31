@@ -5,6 +5,8 @@
   "main": "app/server/index.js",
   "scripts": {
     "start": "node app/server/index.js",
+    "build:server": "$(npm bin)/tsc --project .",
+    "build:client": "$(npm bin)/webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
