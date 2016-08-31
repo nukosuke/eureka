@@ -34,4 +34,7 @@ typings
 
 # build application dir
 app
+public/assets
+
+# database
 db/*.sqlite3
