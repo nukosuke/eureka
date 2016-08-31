@@ -7,7 +7,7 @@ export default class App extends React.Component<Props, State> {
   render() {
     return (
       <div>
-        <p>hello</p>
+        <p>route</p>
       </div>
     );
   }
