@@ -2,7 +2,7 @@
 
 module.exports = {
   entry: {
-    app: './src/client/App.tsx'
+    app: './src/client/Bootstrap.tsx'
   },
   output: {
     path: __dirname + '/public/assets/javascripts',
@@ -21,8 +21,8 @@ module.exports = {
       { test: /\.js$/, loader: 'source-map-loader' }
     ]
   },
-  externals: {
-    'react': 'React',
-    'react-dom': 'ReactDOM'
-  }
+  //externals: {
+  //  'react': 'React',
+  //  'react-dom': 'ReactDOM'
+  //}
 };
