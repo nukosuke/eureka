@@ -1,7 +1,9 @@
 {
   "name": "eureka",
   "dependencies": {
-    "express": "registry:npm/express#4.14.0+20160815112707"
+    "express": "registry:npm/express#4.14.0+20160815112707",
+    "react": "registry:npm/react#15.0.1+20160601175240",
+    "react-dom": "registry:npm/react-dom#15.0.1+20160826174104"
   },
   "globalDependencies": {
     "bookshelf": "registry:dt/bookshelf#0.8.2+20160811111312",
